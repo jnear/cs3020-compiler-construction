@@ -1,13 +1,13 @@
 ---
-title: CS 202: Compiler Construction
+title: CS 3020: Compiler Construction
 layout: default
 ---
 
-# UVM CS202: Compiler Construction (Spring 2023)
+# UVM CS 3020: Compiler Construction (Spring 2024)
 
 ## Administrative
 
-- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Perkins Hall 107
+- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Kalkin 001
 - **Instructor**: Joe Near (jnear at uvm dot edu)
 - **Office hours**: 9:30am - 10:30am, Monday and Friday, Innovation Hall E458
 
@@ -47,16 +47,10 @@ Students will also complete a final project, in which they extend
 their compiler with an additional significant language feature of
 their choice.
 
-Graduate students are expected to complete additional *challenge
-exercises* included in each assignment, and to select more ambitious
-final projects compared to undergraduate students.
-
 This course is primarily intended for computer science students, but
 may also be appropriate for some graduate students in other areas with
 an interest in programming languages and strong programming
 experience.
-
-Prerequisites: CS124 and CS125
 
 ## Text and Resources
 
@@ -64,27 +58,27 @@ Please **do not** buy any books for this course. All required reference material
 
 The primary textbook we will use for this course is:
 
-- [Essentials of Compilation](https://github.com/jnear/cs202-compiler-construction/blob/master/book.pdf)  
+- [Essentials of Compilation](https://github.com/jnear/cs3020-compiler-construction/blob/main/book.pdf)  
   Jeremy Siek.
 
 Other course resources:
 
-- **Announcements** will be posted on the course Blackboard
+- **Announcements** will be posted on the course Brightspace
 - **Homework assignments**
   - Descriptions available in the list of assignments below
-  - [Download assignment code on the course code repository](https://github.com/jnear/cs202-assignments)
+  - [Download assignment code on the course code repository](https://github.com/jnear/cs3020-assignments)
   - Online compilers are available for each assignment (see links in the assignment description)
-  - Turn in homework assignments on Blackboard
+  - Turn in homework assignments on Brightspace
 - **In-class exercises**
-  - [Download notebooks here](https://github.com/jnear/cs202-assignments/tree/master/exercises)
-  - Turn in notebook files on Blackboard
+  - [Download notebooks here](https://github.com/jnear/cs3020-assignments/tree/main/exercises)
+  - Turn in notebook files on Brightspace
 
 
 Additional/fun resources:
 
-- Code from lectures is [available on Github](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures)
-- The [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
-- The [final review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/final-review.md) is available
+- Code from lectures is [available on Github](https://github.com/jnear/cs3020-compiler-construction/tree/main/lectures)
+- The [midterm review sheet](https://github.com/jnear/cs3020-compiler-construction/tree/main/lectures/midterm-review.md) is available
+- The [final review sheet](https://github.com/jnear/cs3020-compiler-construction/tree/main/lectures/final-review.md) is available
 - A [complete listing of Python's AST types](https://docs.python.org/3/library/ast.html)
 - Fun link: a [list of companies who need compiler developers!](https://mgaudet.github.io/CompilerJobs/)
 
@@ -123,21 +117,6 @@ points. This percentage is translated into a letter grade as follows:
 | 60-62   | D-           |
 | <60     | F            |
 
-### Graduate Students
-
-| Percent | Letter Grade |
-| ------: | ------------ |
-| 98-100  | A+           |
-| 93-97   | A            |
-| 90-92   | A-           |
-| 87-89   | B+           |
-| 83-86   | B            |
-| 80-82   | B-           |
-| 77-79   | C+           |
-| 73-76   | C            |
-| 70-72   | C-           |
-| <70     | F            |
-
 ## Assignments
 
 Assignments will generally be due weekly on Mondays at 11:59pm,
@@ -152,7 +131,7 @@ the assignments, it will be extremely difficult to catch up.
 
 Therefore, on Wednesday after each assignment due date, we will
 discuss that assignment's solution in lecture, and the complete
-solution will be made available on Blackboard. I encourage students to
+solution will be made available on Brightspace. I encourage students to
 take advantage of the official solutions to avoid falling behind.
 
 Partial credit will be (extensively) given on assignments. I encourage
@@ -222,21 +201,7 @@ test cases demonstrating its use. Final projects may be completed in
 teams of up to 3 students; larger teams will be expected to complete
 more ambitious projects.
 
-[Click here for more information on final projects](https://jnear.github.io/cs202-compiler-construction/projects).
-
-## Graduate Students
-
-Graduate students will be expected to complete additional requirements
-in order to receive graduate credit for this course:
-
-- Graduate students are expected to complete all of the challenge
-  exercises. For graduate students, the challenge exercise will
-  account for 20% of the assignment's total grade.
-
-- Graduate students are expected to select and complete more ambitious
-  final projects. Suggested topics for graduate student final projects
-  will be included in the detailed final project information.
-
+[Click here for more information on final projects](https://jnear.github.io/cs3020-compiler-construction/projects).
 
 ## Collaboration & Allowed References
 
@@ -258,44 +223,45 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
 # Assignments
 
-| Assignment | Topics Covered                                                                                                     | Text Chapter  | Due Date        |
-|-----------:|--------------------------------------------------------------------------------------------------------------------|---------------|-----------------|
-|          1 | [Compiling Lmin to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)          | Chapter 1 & 2 | Jan 23, 11:59pm |
-|          2 | [Compiling Lvar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)          | Chapter 2     | Feb 6, 11:59pm  |
-|          3 | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)            | Chapter 4     | Feb 21, 11:59pm |
-|          4 | [Booleans and Control Flow](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 5     | Mar 6, 11:59pm  |
-|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md)      | Chapter 6     | Mar 27, 11:59pm |
-|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) | Chapter 7     | Apr 10, 11:59pm |
-|          7 | [Compiling Functions](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw7.md)            | Chapter 8     | Apr 24, 11:59pm |
-|            | Final Project                                                                                                      |               | *See below*     |
+| Assignment | Topics Covered                                                                                                    | Text Chapter  | Due Date        |
+|-----------:|-------------------------------------------------------------------------------------------------------------------|---------------|-----------------|
+|          1 | [Compiling Lmin to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw1.md)          | Chapter 1 & 2 | Jan 22, 11:59pm |
+|          2 | [Compiling Lvar to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw2.md)          | Chapter 2     | Feb 5, 11:59pm  |
+|          3 | [Register Allocation](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw3.md)            | Chapter 4     | Feb 20, 11:59pm |
+|          4 | [Booleans and Control Flow](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw4.md)      | Chapter 5     | Mar 4, 11:59pm  |
+|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw5.md)      | Chapter 6     | Mar 25, 11:59pm |
+|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw6.md) | Chapter 7     | Apr 8, 11:59pm  |
+|          7 | [Compiling Functions](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw7.md)            | Chapter 8     | Apr 22, 11:59pm |
+|            | Final Project                                                                                                     |               | *See below*     |
 
 # Class Schedule
 
 **Note: no class on the following dates:**
-- Monday, January 16 (MLK day)
-- Monday, February 20 (Presidents' day)
-- March 13-17 (Spring break)
+- Monday, January 15 (MLK day)
+- Monday, February 19 (Presidents' day)
+- March 11-15 (Spring break)
+- April 8 (eclipse day)
 
 **Exams**:
-- Midterm exam: Friday, March 10, in class
-- Final exam: Friday, May 12, 10:30-11:30am, Perkins 107
+- Midterm exam: Friday, March 8, in class
+- Final exam: Monday, May 6, 10:30-11:30am, Kalkin 001
 
 | Week of | Topic                                              | Assignment                                             |
 |--------:|----------------------------------------------------|--------------------------------------------------------|
-|  Jan 16 | ASTs, Interpreters, x86 Assembly (no class Monday) |                                                        |
-|  Jan 23 | Compiling Lmin                                     | A1 Due (Monday)                                        |
-|  Jan 30 | Compiling Lvar                                     | A1 Review Due (Monday)                                 |
-|   Feb 6 | Register allocation                                | A2 Due (Monday)                                        |
-|  Feb 13 | Register allocation                                | A2 Review Due (Monday)                                 |
-|  Feb 20 | Booleans & Typechecking (no class Monday)          | A3 Due (**Tuesday**)                                   |
-|  Feb 27 | Compiling Lif                                      | A3 Review Due (Monday)                                 |
-|   Mar 6 | Compiling Lif (midterm exam Friday)                | A4 Due (Monday)                                        |
-|  Mar 13 | *Spring Break* (no class)                          |                                                        |
-|  Mar 20 | Loops & Dataflow analysis                          | A4 Review Due (Monday)                                 |
-|  Mar 27 | Vectors & Garbage collection I                     | A5 Due (Monday)                                        |
-|   Apr 3 | Vectors & Garbage collection II                    | A5 Review Due (Monday)                                 |
-|  Apr 10 | Compiling functions                                | A6 Due (Monday)                                        |
-|  Apr 17 | Compiling first-class functions                    | A6 Review Due (Monday); Project Proposals Due (Monday) |
-|  Apr 24 | Dynamic typing & objects                           | A7 Due (Monday)                                        |
-|   May 1 | Optimization; binary & instruction sets            | A7 Review Due (Monday); Project Milestone (Monday)     |
-|   May 8 | *Finals week* (no class); Final exam (Friday)      | Final Project Due (Monday)                             |
+|  Jan 15 | ASTs, Interpreters, x86 Assembly (no class Monday) |                                                        |
+|  Jan 22 | Compiling Lmin                                     | A1 Due (Monday)                                        |
+|  Jan 29 | Compiling Lvar                                     | A1 Review Due (Monday)                                 |
+|   Feb 5 | Register allocation                                | A2 Due (Monday)                                        |
+|  Feb 12 | Register allocation                                | A2 Review Due (Monday)                                 |
+|  Feb 19 | Booleans & Typechecking (no class Monday)          | A3 Due (**Tuesday**)                                   |
+|  Feb 26 | Compiling Lif                                      | A3 Review Due (Monday)                                 |
+|   Mar 4 | Compiling Lif (midterm exam Friday)                | A4 Due (Monday)                                        |
+|  Mar 11 | *Spring Break* (no class)                          |                                                        |
+|  Mar 18 | Loops & Dataflow analysis                          | A4 Review Due (Monday)                                 |
+|  Mar 25 | Vectors & Garbage collection I                     | A5 Due (Monday)                                        |
+|   Apr 1 | Vectors & Garbage collection II                    | A5 Review Due (Monday)                                 |
+|   Apr 8 | Compiling functions (no class Monday)              | A6 Due (Monday)                                        |
+|  Apr 15 | Compiling first-class functions                    | A6 Review Due (Monday); Project Proposals Due (Monday) |
+|  Apr 22 | Dynamic typing & objects                           | A7 Due (Monday)                                        |
+|  Apr 29 | Optimization; binary & instruction sets            | A7 Review Due (Monday); Project Milestone (Monday)     |
+|   May 6 | *Finals week* (no class); Final exam (Monday)      | Final Project Due (Monday)                             |

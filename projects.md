@@ -1,4 +1,4 @@
-# Final Projects (Spring 2023)
+# Final Projects (Spring 2024)
 
 ## Suggested Project Ideas
 
@@ -131,9 +131,9 @@ The final project is worth 10% of your final grade. The schedule for final proje
 
 |                Deliverable | Due Date                  | Grade Percent | Turn In    |
 |---------------------------:|---------------------------|---------------|------------|
-|           Project Proposal | Monday, Apr 17 at 11:59pm | 10%           | Blackboard |
-|          Project Milestone | Monday, May 1 at 11:59pm  | 10%           | Blackboard |
-|    Implementation & README | Monday, May 8 at 11:59pm  | 50%           | Blackboard |
-| Project Presentation Video | Monday, May 8 at 11:59pm  | 30%           | Blackboard |
+|           Project Proposal | Monday, Apr 15 at 11:59pm | 10%           | Blackboard |
+|          Project Milestone | Monday, Apr 29 at 11:59pm | 10%           | Blackboard |
+|    Implementation & README | Monday, May 6 at 11:59pm  | 50%           | Blackboard |
+| Project Presentation Video | Monday, May 6 at 11:59pm  | 30%           | Blackboard |
 
 
