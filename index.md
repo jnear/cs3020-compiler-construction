@@ -138,14 +138,6 @@ Partial credit will be (extensively) given on assignments. I encourage
 you to submit *something* for every assignment, even if your solution
 is far from complete.
 
-Most assignments include a *challenge exercise*, which generally
-involves extending your compiler with extra features or optimization
-capabilities. Graduate students are required to complete all of the
-challenge exercises, and the challenge exercise will account for 20%
-of the total grade for the assignment. Undergraduates who successfully
-complete the challenge exercise for an assignment will receive 5%
-extra credit for that assignment.
-
 Assignments will be graded according to the following rubric:
 
 | Grade | Assignment Status                                         |
