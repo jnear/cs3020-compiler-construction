@@ -245,6 +245,7 @@ points), and email the notes to me by the next day, I will add 0.25%
 of extra credit to your final grade in the course. If you attend all 9
 talks, you will receive a total of 2.25% extra credit on your final
 grade. The talks are scheduled as follows:
+- Tuesday, Feb 6, 1:10-2:10pm, Lafayette 311
 - Tuesday, Feb 13, 1:10-2:10pm, Lafayette 311
 - More TBD
 
