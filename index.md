@@ -244,10 +244,7 @@ the talk, take brief notes (1-2 paragraphs summarizing the key
 points), and email the notes to me by the next day, I will add 0.25%
 of extra credit to your final grade in the course. If you attend all 9
 talks, you will receive a total of 2.25% extra credit on your final
-grade. The talks are scheduled as follows:
-- Tuesday, Feb 6, 1:10-2:10pm, Lafayette 311
-- Tuesday, Feb 13, 1:10-2:10pm, Lafayette 311
-- More TBD
+grade.
 
 | Week of | Topic                                              | Assignment                                             |
 |--------:|----------------------------------------------------|--------------------------------------------------------|
@@ -260,7 +257,7 @@ grade. The talks are scheduled as follows:
 |  Feb 26 | Compiling Lif                                      | A3 Review Due (Monday)                                 |
 |   Mar 4 | Compiling Lif (midterm exam Friday)                | A4 Due (Monday)                                        |
 |  Mar 11 | *Spring Break* (no class)                          |                                                        |
-|  Mar 18 | Loops & Dataflow analysis                          | A4 Review Due (Monday)                                 |
+|  Mar 18 | Loops & Dataflow analysis                          | A4 Review Due (**Tuesday**)                            |
 |  Mar 25 | Vectors & Garbage collection I                     | A5 Due (Monday)                                        |
 |   Apr 1 | Vectors & Garbage collection II                    | A5 Review Due (Monday)                                 |
 |   Apr 8 | Compiling functions (no class Monday)              | A6 Due (Monday)                                        |
