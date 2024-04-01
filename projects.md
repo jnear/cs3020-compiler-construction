@@ -109,7 +109,7 @@ Very tough:
 
 ## Requirements
 
-The goal of the final project is for you to design and implement your own compiler extension. Final projects will be completed in groups of 1-3. The deliverables for the project will be as follows:
+The goal of the final project is for you to design and implement your own compiler extension. Final projects will be completed in groups of 1-3. Your project should be similar in size and scope to a single homework assignment. For groups of size >1, the project should be similar in size and scope to one homework assignment for *each* group member. The deliverables for the project will be as follows:
 
 - A *project proposal* of 1 paragraph, describing:
   - Who is in your group
@@ -129,11 +129,11 @@ The goal of the final project is for you to design and implement your own compil
 
 The final project is worth 10% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
-|                Deliverable | Due Date                  | Grade Percent | Turn In    |
-|---------------------------:|---------------------------|---------------|------------|
-|           Project Proposal | Monday, Apr 15 at 11:59pm | 10%           | Blackboard |
-|          Project Milestone | Monday, Apr 29 at 11:59pm | 10%           | Blackboard |
-|    Implementation & README | Monday, May 6 at 11:59pm  | 50%           | Blackboard |
-| Project Presentation Video | Monday, May 6 at 11:59pm  | 30%           | Blackboard |
+|                Deliverable | Due Date                    | Grade Percent | Turn In     |
+|---------------------------:|-----------------------------|---------------|-------------|
+|           Project Proposal | Monday, Apr 15 at 11:59pm   | 10%           | Brightspace |
+|          Project Milestone | Monday, Apr 29 at 11:59pm   | 10%           | Brightspace |
+|    Implementation & README | Wednesday, May 8 at 11:59pm | 50%           | Brightspace |
+| Project Presentation Video | Wednesday, May 8 at 11:59pm | 30%           | Brightspace |
 
 
