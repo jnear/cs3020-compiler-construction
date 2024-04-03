@@ -222,7 +222,7 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 |          3 | [Register Allocation](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw3.md)            | Chapter 4     | Feb 20, 11:59pm |
 |          4 | [Booleans and Control Flow](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw4.md)      | Chapter 5     | Mar 4, 11:59pm  |
 |          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw5.md)      | Chapter 6     | Mar 25, 11:59pm |
-|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw6.md) | Chapter 7     | Apr 8, 11:59pm  |
+|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw6.md) | Chapter 7     | Apr 9, 11:59pm  |
 |          7 | [Compiling Functions](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw7.md)            | Chapter 8     | Apr 22, 11:59pm |
 |            | Final Project                                                                                                     |               | *See below*     |
 
@@ -263,7 +263,7 @@ grade.
 |  Mar 18 | Loops & Dataflow analysis                                           | A4 Review Due (**Tuesday**)                            |
 |  Mar 25 | Vectors & Garbage collection I                                      | A5 Due (Monday)                                        |
 |   Apr 1 | Vectors & Garbage collection II                                     | A5 Review Due (Monday)                                 |
-|   Apr 8 | Compiling functions (no class Monday, asynchronous class Wednesday) | A6 Due (Monday)                                        |
+|   Apr 8 | Compiling functions (no class Monday, asynchronous class Wednesday) | A6 Due (**Tuesday**)                                   |
 |  Apr 15 | Compiling first-class functions                                     | A6 Review Due (Monday); Project Proposals Due (Monday) |
 |  Apr 22 | Dynamic typing & objects                                            | A7 Due (Monday)                                        |
 |  Apr 29 | Optimization; binary & instruction sets                             | A7 Review Due (Monday); Project Milestone (Monday)     |
