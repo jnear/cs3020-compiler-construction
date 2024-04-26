@@ -125,6 +125,10 @@ The goal of the final project is for you to design and implement your own compil
   - A description of challenges you encountered / parts you were not able to implement
   - You will submit a video of your project presentation at the same time as your project implementation and README
 
+For the *project milestone*, you should submit:
+- A *status update* of 1 paragraph, stating what you have accomplished and what is left to finish
+- A file containing your current implementation - either `compiler.py` if you didn't modify any other files, or a .zip file containing the whole compiler directory if you did
+
 ## Schedule & Grading
 
 The final project is worth 10% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
