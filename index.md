@@ -3,7 +3,7 @@ title: CS 3020: Compiler Construction
 layout: default
 ---
 
-# UVM CS 3020: Compiler Construction (Spring 2024)
+# UVM CS 3020: Compiler Construction (Spring 2025)
 
 ## Administrative
 
@@ -98,8 +98,6 @@ Your grade for the course will be determined as follows:
 Your final grade will be determined by summing the total number of
 points awarded and calculating the percentage of the total possible
 points. This percentage is translated into a letter grade as follows:
-
-### Undergraduate Students
 
 | Percent | Letter Grade |
 | ------: | ------------ |
@@ -217,54 +215,50 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
 | Assignment | Topics Covered                                                                                                    | Text Chapter  | Due Date        |
 |-----------:|-------------------------------------------------------------------------------------------------------------------|---------------|-----------------|
-|          1 | [Compiling Lmin to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw1.md)          | Chapter 1 & 2 | Jan 22, 11:59pm |
-|          2 | [Compiling Lvar to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw2.md)          | Chapter 2     | Feb 5, 11:59pm  |
-|          3 | [Register Allocation](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw3.md)            | Chapter 4     | Feb 20, 11:59pm |
-|          4 | [Booleans and Control Flow](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw4.md)      | Chapter 5     | Mar 4, 11:59pm  |
-|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw5.md)      | Chapter 6     | Mar 25, 11:59pm |
-|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw6.md) | Chapter 7     | Apr 9, 11:59pm  |
-|          7 | [Compiling Functions](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw7.md)            | Chapter 8     | Apr 22, 11:59pm |
+|          1 | [Compiling Lmin to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw1.md)          | Chapter 1 & 2 | Jan 21, 11:59pm |
+|          2 | [Compiling Lvar to x86](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw2.md)          | Chapter 2     | Feb 3, 11:59pm  |
+|          3 | [Register Allocation](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw3.md)            | Chapter 4     | Feb 18, 11:59pm |
+|          4 | [Booleans and Control Flow](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw4.md)      | Chapter 5     | Mar 3, 11:59pm  |
+|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw5.md)      | Chapter 6     | Mar 24, 11:59pm |
+|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw6.md) | Chapter 7     | Apr 7, 11:59pm  |
+|          7 | [Compiling Functions](https://github.com/jnear/cs3020-compiler-construction/blob/main/homework/hw7.md)            | Chapter 8     | Apr 21, 11:59pm |
 |            | Final Project                                                                                                     |               | *See below*     |
 
 # Class Schedule
 
 **Note: no class on the following dates:**
-- Monday, January 15 (MLK day)
-- Monday, February 19 (Presidents' day)
-- March 11-15 (Spring break)
-- April 8 (eclipse day)
-
-**Note: asynchronous class on the following dates:**
-- Wednesday, April 10
+- Monday, January 20 (MLK day)
+- Monday, February 17 (Presidents' day)
+- March 10-14 (Spring break)
 
 **Exams**:
-- Midterm exam: Friday, March 8, in class
-- Final exam: Monday, May 6, 10:30-11:30am, Kalkin 001
+- Midterm exam: Friday, March 7, in class
+- Final exam: Friday, May 9, 9:00-10:15am, Kalkin 001
 
-**Extra credit opportunities**: The CS department will host between 6
-and 9 invited talks by faculty candidates this semester. If you attend
+**Extra credit opportunities**: The CS department will host approximately 4
+invited talks by faculty candidates this semester. If you attend
 the talk, take brief notes (1-2 paragraphs summarizing the key
-points), and email the notes to me by the next day, I will add 0.25%
-of extra credit to your final grade in the course. If you attend all 9
-talks, you will receive a total of 2.25% extra credit on your final
+points), and email the notes to me by the next day, I will add 0.5%
+of extra credit to your final grade in the course. If you attend all 4
+talks, you will receive a total of 2% extra credit on your final
 grade.
 
-| Week of | Topic                                                               | Assignment                                             |
-|--------:|---------------------------------------------------------------------|--------------------------------------------------------|
-|  Jan 15 | ASTs, Interpreters, x86 Assembly (no class Monday)                  |                                                        |
-|  Jan 22 | Compiling Lmin                                                      | A1 Due (Monday)                                        |
-|  Jan 29 | Compiling Lvar                                                      | A1 Review Due (Monday)                                 |
-|   Feb 5 | Register allocation                                                 | A2 Due (Monday)                                        |
-|  Feb 12 | Register allocation                                                 | A2 Review Due (Monday)                                 |
-|  Feb 19 | Booleans & Typechecking (no class Monday)                           | A3 Due (**Tuesday**)                                   |
-|  Feb 26 | Compiling Lif                                                       | A3 Review Due (Monday)                                 |
-|   Mar 4 | Compiling Lif (midterm exam Friday)                                 | A4 Due (Monday)                                        |
-|  Mar 11 | *Spring Break* (no class)                                           |                                                        |
-|  Mar 18 | Loops & Dataflow analysis                                           | A4 Review Due (**Tuesday**)                            |
-|  Mar 25 | Vectors & Garbage collection I                                      | A5 Due (Monday)                                        |
-|   Apr 1 | Vectors & Garbage collection II                                     | A5 Review Due (Monday)                                 |
-|   Apr 8 | Compiling functions (no class Monday, asynchronous class Wednesday) | A6 Due (**Tuesday**)                                   |
-|  Apr 15 | Compiling first-class functions                                     | A6 Review Due (Monday); Project Proposals Due (Monday) |
-|  Apr 22 | Dynamic typing & objects                                            | A7 Due (Monday)                                        |
-|  Apr 29 | Optimization; binary & instruction sets                             | A7 Review Due (Monday); Project Milestone (Monday)     |
-|   May 6 | *Finals week* (no class); Final exam (Monday)                       | Final Project Due (Wednesday)                          |
+| Week of | Topic                                            | Assignment                                             |
+|--------:|--------------------------------------------------|--------------------------------------------------------|
+|  Jan 13 | ASTs, Interpreters, x86 Assembly, Compiling Lmin |                                                        |
+|  Jan 20 | Compiling Lvar (no class Monday)                 | A1 Due (**Tuesday**)                                   |
+|  Jan 27 | Compiling Lvar                                   | A1 Review Due (Monday)                                 |
+|   Feb 3 | Register allocation                              | A2 Due (Monday)                                        |
+|  Feb 10 | Register allocation                              | A2 Review Due (Monday)                                 |
+|  Feb 17 | Booleans & Typechecking (no class Monday)        | A3 Due (**Tuesday**)                                   |
+|  Feb 24 | Compiling Lif                                    | A3 Review Due (Monday)                                 |
+|   Mar 3 | Compiling Lif (midterm exam Friday)              | A4 Due (Monday)                                        |
+|  Mar 10 | *Spring Break* (no class)                        |                                                        |
+|  Mar 17 | Loops & Dataflow analysis                        | A4 Review Due (**Tuesday**)                            |
+|  Mar 24 | Vectors & Garbage collection I                   | A5 Due (Monday)                                        |
+|  Mar 31 | Vectors & Garbage collection II                  | A5 Review Due (Monday)                                 |
+|   Apr 7 | Compiling functions                              | A6 Due                                                 |
+|  Apr 14 | Compiling first-class functions                  | A6 Review Due (Monday); Project Proposals Due (Monday) |
+|  Apr 21 | Dynamic typing & objects                         | A7 Due (Monday)                                        |
+|  Apr 28 | Optimization; binary & instruction sets          | A7 Review Due (Monday); Project Milestone (Monday)     |
+|   May 5 | *Finals week* (no class); Final exam (Friday)    | Final Project Due (Wednesday)                          |
