@@ -7,7 +7,7 @@ layout: default
 
 ## Administrative
 
-- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Kalkin 001
+- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Kalkin 004
 - **Instructor**: Joe Near (jnear at uvm dot edu)
 - **Office hours**: 9:30am - 10:30am, Monday and Friday, Innovation Hall E458
 
