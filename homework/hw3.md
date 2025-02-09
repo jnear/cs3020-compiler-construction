@@ -6,7 +6,7 @@ repository](https://github.com/jnear/cs3020-assignments) and submit
 your `compiler.py` file on the course Brightspace under "Assignment
 3".**
 
-**Due: Tuesday, Feb 20, 11:59pm**
+**Due: Tuesday, Feb 18, 11:59pm**
 
 Complete `compiler.py` so that it implements a compiler from the
 `LVar` language to x86 assembly. A grammar for the required subset
