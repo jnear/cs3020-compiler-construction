@@ -6,7 +6,7 @@ repository](https://github.com/jnear/cs3020-assignments) and submit
 your `compiler.py` file on the course Brightspace under "Assignment
 4".**
 
-**Due: Monday, Mar 4, 11:59pm**
+**Due: Monday, Mar 3, 11:59pm**
 
 Complete `compiler.py` so that it implements a compiler from the
 `LIf` language to x86 assembly. A grammar for the required subset

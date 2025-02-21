@@ -235,13 +235,14 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 - Midterm exam: Friday, March 7, in class
 - Final exam: Friday, May 9, 9:00-10:15am, Kalkin 001
 
-**Extra credit opportunities**: The CS department will host approximately 4
+**Extra credit opportunities**: The CS department will host 4
 invited talks by faculty candidates this semester. If you attend
 the talk, take brief notes (1-2 paragraphs summarizing the key
 points), and email the notes to me by the next day, I will add 0.5%
 of extra credit to your final grade in the course. If you attend all 4
 talks, you will receive a total of 2% extra credit on your final
-grade.
+grade. [Click here for talk details](https://docs.google.com/document/d/e/2PACX-1vQWELZjW438QQIx0hJAgMRGAuUZyiMMqzUtTjGV28Sc1eq2nDCD5Pt2EBQKZM6ctgWPSaTL01cQI7at/pub
+).
 
 | Week of | Topic                                            | Assignment                                             |
 |--------:|--------------------------------------------------|--------------------------------------------------------|
