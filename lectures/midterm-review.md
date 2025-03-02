@@ -1,4 +1,4 @@
-# Midterm Review (Spring 2024)
+# Midterm Review (Spring 2025)
 
 # Format
 
@@ -52,8 +52,8 @@ Which of the following are atomic expressions?
 Perform the remove-complex-opera* pass on this program:
 
     x = 5 + 6
-    y = x + 7 + 8
-    print(x + y)
+    print(x)
+    print(10 + 12)
 
 ## x86 / compiler passes / stack allocation
 
