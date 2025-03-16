@@ -6,7 +6,7 @@ modifying the `compiler.py` file in the `a7` directory of the
 and submit your `compiler.py` file on the course Brightspace under
 "Assignment 7".**
 
-**Due: Monday, Apr 22, 11:59pm**
+**Due: Monday, Apr 21, 11:59pm**
 
 Complete `compiler.py` so that it implements a compiler from the
 `Lfun` language to x86 assembly. A grammar for the required subset

@@ -7,7 +7,7 @@ repository](https://github.com/jnear/cs3020-assignments) and submit
 your `compiler.py` file on the course Brightspace under "Assignment
 6".**
 
-**Due: Monday, Apr 8, 11:59pm**
+**Due: Monday, Apr 7, 11:59pm**
 
 Complete `compiler.py` so that it implements a compiler from the
 `Ltup` language to x86 assembly. A grammar for the required subset
