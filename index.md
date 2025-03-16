@@ -244,22 +244,22 @@ talks, you will receive a total of 2% extra credit on your final
 grade. [Click here for talk details](https://docs.google.com/document/d/e/2PACX-1vQWELZjW438QQIx0hJAgMRGAuUZyiMMqzUtTjGV28Sc1eq2nDCD5Pt2EBQKZM6ctgWPSaTL01cQI7at/pub
 ).
 
-| Week of | Topic                                            | Assignment                                             |
-|--------:|--------------------------------------------------|--------------------------------------------------------|
-|  Jan 13 | ASTs, Interpreters, x86 Assembly, Compiling Lmin |                                                        |
-|  Jan 20 | Compiling Lvar (no class Monday)                 | A1 Due (**Tuesday**)                                   |
-|  Jan 27 | Compiling Lvar                                   | A1 Review Due (Monday)                                 |
-|   Feb 3 | Register allocation                              | A2 Due (Monday)                                        |
-|  Feb 10 | Register allocation                              | A2 Review Due (Monday)                                 |
-|  Feb 17 | Booleans & Typechecking (no class Monday)        | A3 Due (**Tuesday**)                                   |
-|  Feb 24 | Compiling Lif                                    | A3 Review Due (Monday)                                 |
-|   Mar 3 | Compiling Lif (midterm exam Friday)              | A4 Due (Monday)                                        |
-|  Mar 10 | *Spring Break* (no class)                        |                                                        |
-|  Mar 17 | Loops & Dataflow analysis                        | A4 Review Due (**Tuesday**)                            |
-|  Mar 24 | Vectors & Garbage collection I                   | A5 Due (Monday)                                        |
-|  Mar 31 | Vectors & Garbage collection II                  | A5 Review Due (Monday)                                 |
-|   Apr 7 | Compiling functions                              | A6 Due                                                 |
-|  Apr 14 | Compiling first-class functions                  | A6 Review Due (Monday); Project Proposals Due (Monday) |
-|  Apr 21 | Dynamic typing & objects                         | A7 Due (Monday)                                        |
-|  Apr 28 | Optimization; binary & instruction sets          | A7 Review Due (Monday); Project Milestone (Monday)     |
-|   May 5 | *Finals week* (no class); Final exam (Friday)    | Final Project Due (Wednesday)                          |
+| Week of | Topic                                            | Assignment                                               |
+|--------:|--------------------------------------------------|----------------------------------------------------------|
+|  Jan 13 | ASTs, Interpreters, x86 Assembly, Compiling Lmin |                                                          |
+|  Jan 20 | Compiling Lvar (no class Monday)                 | A1 Due (**Tuesday**)                                     |
+|  Jan 27 | Compiling Lvar                                   | A1 Review Due (Monday)                                   |
+|   Feb 3 | Register allocation                              | A2 Due (Monday)                                          |
+|  Feb 10 | Register allocation                              | A2 Review Due (Monday)                                   |
+|  Feb 17 | Booleans & Typechecking (no class Monday)        | A3 Due (**Tuesday**)                                     |
+|  Feb 24 | Compiling Lif                                    | A3 Review Due (Monday)                                   |
+|   Mar 3 | Compiling Lif (midterm exam Friday)              | A4 Due (Monday)                                          |
+|  Mar 10 | *Spring Break* (no class)                        |                                                          |
+|  Mar 17 | Loops & Dataflow analysis                        | A4 Review Due (**Tuesday**); async lecture **Wednesday** |
+|  Mar 24 | Vectors & Garbage collection I                   | A5 Due (Monday)                                          |
+|  Mar 31 | Vectors & Garbage collection II                  | A5 Review Due (Monday)                                   |
+|   Apr 7 | Compiling functions                              | A6 Due                                                   |
+|  Apr 14 | Compiling first-class functions                  | A6 Review Due (Monday); Project Proposals Due (Monday)   |
+|  Apr 21 | Dynamic typing & objects                         | A7 Due (Monday)                                          |
+|  Apr 28 | Optimization; binary & instruction sets          | A7 Review Due (Monday); Project Milestone (Monday)       |
+|   May 5 | *Finals week* (no class); Final exam (Friday)    | Final Project Due (Wednesday)                            |
