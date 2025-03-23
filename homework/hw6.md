@@ -29,7 +29,7 @@ op     ::= "add" | "sub" | "mult" | "not" | "or" | "and" | "eq" | "gt" | "gte" |
 Expr   ::= Var(x) | Constant(n) | Prim(op, List[Expr])
 Stmt   ::= Assign(x, Expr) | Print(Expr) | If(Expr, Stmts, Stmts) | While(Expr, Stmts)
 Stmts  ::= List[Stmt]
-LWhile ::= Program(Stmts)
+LTup ::= Program(Stmts)
 ```
 
 An online compiler for this assignment is available
