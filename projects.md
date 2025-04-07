@@ -1,4 +1,4 @@
-# Final Projects (Spring 2024)
+# Final Projects (Spring 2025)
 
 ## Suggested Project Ideas
 
@@ -46,24 +46,23 @@ p3 = add_point(p1, p2)
 <!-- print(fact(5)) -->
 <!-- ``` -->
 
-### Anonymous (Lexically-scoped) Functions
+### Nested, Lexically-scoped Functions
 
-Extend the Lfun language to support *lexically-scoped functions* at
-the top level. We will discuss this option in class, and the textbook
+Extend the Lfun language to support *lexically-scoped functions* via `def`. 
+We will discuss this option in class, and the textbook
 describes the changes in Chapter 9. Support for `lambda` expressions
-is optional, and more challenging due to changes in the parser.
+is optional (anonymous functions), and more challenging due to changes in the parser.
 
 Example:
 
 ```
-x = 5
-
 def f() -> int:
-    return x
+    x = 5
+    def g() -> int:
+        return x
+    return g
 
-x = 6
-
-print(f())
+print(f()())
 ```
 
 ### Dynamic Typing
@@ -82,18 +81,25 @@ else:
 
 ## Other Project Ideas
 
-  * cons lists
-    * with vectors
-    * improved tags
-    * datatypes / pattern matching
   * arrays with non-statically-known indexing (runtime checking)
-  * objects
-    * records with named fields (from tuples)
-    * functions in fields (methods w/ dynamic dispatch)
-    * classes & inheritance
+  * objects with dynamic dispatch
+  * objects with inheritance
+  * objects with class definitions
+  * placing tuple-valued variables in registers
+  * lists
+  * recursive datatypes / algebraic datatypes
+  * optimizations
+    * removing unneeded moves
+    * removing unneeded jumps
+    * removing unneeded tmp vars
+  * new data types
+    * floating point numbers
+    * strings
 
 More complicated:
 
+  * manually-allocated heap data (malloc/free)
+  * reference-counted heap data
   * lazy evaluation
   * procedure inlining
   * continuations, exceptions
@@ -135,9 +141,9 @@ The final project is worth 10% of your final grade. The schedule for final proje
 
 |                Deliverable | Due Date                    | Grade Percent | Turn In     |
 |---------------------------:|-----------------------------|---------------|-------------|
-|           Project Proposal | Monday, Apr 15 at 11:59pm   | 10%           | Brightspace |
-|          Project Milestone | Monday, Apr 29 at 11:59pm   | 10%           | Brightspace |
-|    Implementation & README | Wednesday, May 8 at 11:59pm | 50%           | Brightspace |
-| Project Presentation Video | Wednesday, May 8 at 11:59pm | 30%           | Brightspace |
+|           Project Proposal | Monday, Apr 14 at 11:59pm   | 10%           | Brightspace |
+|          Project Milestone | Monday, Apr 28 at 11:59pm   | 10%           | Brightspace |
+|    Implementation & README | Wednesday, May 7 at 11:59pm | 50%           | Brightspace |
+| Project Presentation Video | Wednesday, May 7 at 11:59pm | 30%           | Brightspace |
 
 
