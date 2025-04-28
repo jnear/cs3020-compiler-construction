@@ -1,4 +1,4 @@
-# Final Review (Spring 2024)
+# Final Review (Spring 2025)
 
 # Format
 
@@ -25,10 +25,11 @@
   - Garbage collection
 - Functions
   - Calling convention
-  - Limiting number of arguments
+    - Parameter-passing registers
+    - Caller-saved and callee-saved registers
+    - Stack frames
   - Functions as values
 - Objects (only conceptual knowledge expected)
-  - Method tables
   - Representation with tuples
 - Lexically scoped functions (including lambda) (only conceptual knowledge expected)
   - Static/lexical vs dynamic scope
