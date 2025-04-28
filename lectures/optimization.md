@@ -13,7 +13,6 @@ We've already done some of the biggest optimizations!
 - Register saving via register allocation (i.e. avoid spilling when possible)
 - Move biasing to eliminate unneeded moves
 - Static typechecking to avoid run-time checks
-- Avoid branching when possible
 
 ## Local optimizations
 
@@ -114,45 +113,6 @@ One that can help generally is *loop fission* - splitting one loop
 into two (or more). This is totally counterintuitive! But if the loop
 body touches two regions of memory, splitting it into two loops can
 actually result in *better* performance, due to locality.
-
-To maximize pipelining, we want to minimize jumps. We actually did
-some of this in two ways. First, there was a challenge assignment that
-removes trivial jumps resulting from conditionals. Second, we designed
-`explicate-control-pred` to do some constant propagation and code
-hoisting! Recall that:
-
-    (if #f b1 b2)
-    ⇓
-    b1
-
-And (effectively):
-
-    (if (if e1
-            e2
-            e3)
-        e4
-        e5)
-    ⇓
-    (if e1
-        (if e2
-            e4
-            e5)
-        (if e3
-            e4
-            e5))
-
-In both cases we did slightly better than the naive solution. For the
-second one, we could have done:
-
-    (let ([tmp (if e1
-                   e2
-                   e3)])
-      (if tmp
-          e4
-          e5))
-
-This would have resulted in the use of `set` and `movzbq`
-instructions, which we avoided by code hoisting.
 
 Doing a really good job of this kind of thing is *highly* dependent on
 architecture, and difficult to reason about.
